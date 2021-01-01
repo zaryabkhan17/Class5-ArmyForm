@@ -1,0 +1,17 @@
+form {
+    color: rgb(0, 49, 92);
+    background-color: rgb(215, 235, 241);
+    
+    width: 30%;
+    border: black;
+    border-style: solid;
+    padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+ margin-top: 40px;
+}
+h1 {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
