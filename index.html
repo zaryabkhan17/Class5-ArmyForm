@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+    <p>Only Pakistani, height above then 5.5 and age above then 18(if u are not master level qualified) will be able to addmit</p>
     <Form action="#" onsubmit="myfunc()">
         <h2>Army Addmision Form</h2>
         Do You Have Pakistani Nationality?
@@ -52,22 +52,7 @@
 
             Height = parseFloat(Height);
             Age = parseInt(Age);
-             if (
-
-                National === "Yes"
-                &&
-                Height >= 5.5
-                &&
-                (
-                    (Age >= 18 && Age <= 25)
-
-                    ||
-
-                    Edu === "Yes"
-                )
-
-            )
-               {
+            if (National === "Yes" && Height >= 5.5 && ( (Age >= 18 && Age <= 25) || Edu === "Yes" ) ) {
 
                 document.getElementById("ans").innerHTML = "Form Accepted"
             }
